@@ -1,0 +1,95 @@
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.bg img {
+    display: block;
+    margin: auto;
+	padding-left: 70px;
+}
+.quote-section 
+ h3.quote-text {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+	padding-bottom: 25px;
+	margin-bottom: 20px;
+}
+
+.quote-section h3.quote-text:before {
+    position: absolute;
+    content: '';
+    width: 130px;
+    height: 1px;
+    background: #fff;
+    bottom: 0;
+    left: 50%;
+    margin-left: -65px;
+}
+
+.quote-section h3.quote-text:after {
+	position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #5ab8fc;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -6px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+
+.quote-section {
+    background: #19B5FE;
+    padding: 40px 100px 55px;
+	margin-top: -84px;
+}
+.quote-section form.quote-girl input[type="text"]:focus, 
+.quote-section form.quote-girl input[type="email"]:focus ,
+.quote-section form.quote-girl input[type="submit"]:focus, 
+.quote-section form.quote-girl textarea:focus  {
+	outline: none;
+}
+.quote-section form.quote-girl input[type="text"], 
+.quote-section form.quote-girl input[type="email"],
+.quote-section form.quote-girl input[type="submit"], 
+.quote-section form.quote-girl textarea   {
+    width: 100%;
+    border: transparent;
+    background: #fff;
+    resize: none;
+    margin-bottom: 40px;
+    padding: 12px 5px;
+}
+
+.quote-section form.quote-girl textarea,
+.quote-section form.quote-girl input[type="text"],
+.quote-section form.quote-girl input[type="email"] {
+	background: transparent;
+	border-bottom: 1px solid #fefefe;
+	
+}
+
+.quote-section form.quote-girl textarea {
+	height: 50px;
+    resize: none;
+    overflow: hidden;	
+}
+.quote-section form.quote-girl input[type="submit"] {
+	width: 165px;
+    height: 45px;
+    border-radius: 5px;
+    color: #5ab8fc;
+    text-transform: uppercase;
+    font-weight: 600;
+	display: block;
+	margin: auto;
+	padding: 5px;
+}
+::placeholder {
+	color: #fff;
+}
